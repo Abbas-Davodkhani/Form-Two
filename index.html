@@ -5,32 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Form 2</title>
-    <style>
-        #img-section{
-            width: 300px;
-            height: 200px;
-            background-color: #E5E5E5;
-            padding: 20px;
-            border-radius: 44%;
-
-        }
-        
-    </style>
+    
 </head>
 <body>
     <div id="container">
         <div id="contain">
-           
-                <div id="img-section">                 
-                    <img src="images/Featured-Image-B.png" width="100%" alt="">
+                <!-- img section -->
+                <div id="img-section">
+                    <div id="img-section-item">                 
+                        <img src="images/Featured-Image-B.png" width="100%" alt="">
+                    </div>
                 </div>
+                
+                <!-- Form Section -->
+                <div  id="form-section">
+                    <div id="form-section-item">
+                        <h2>
+                            Member Login
+                        </h2>
+                        <!-- Start Form -->
+                        <form>
+                            <div class="info-section">
+                                <i class="fa fa-envelope user"></i>
+                                <input type="email" class="form-items" placeholder="Email"> 
+                            </div>
+                            
+                            <div class="info-section">
+                                <i class="fa fa-lock user"></i>
+                                <input type="password" class="form-items" placeholder="*****"> 
+                            </div>
+                            
+                            
+                            <button class="info-section">
+                                Login
+                            </button>
+                        </form>
 
-                <div>
-                <!-- Start Form -->
-                    <form>
-                    </form>
-                <!-- End Form -->
+                        
+                        <!-- End Form -->
+
+                        <div id="forgot-section">
+                            <span>Forgot</span> <a href="#">UserName</a> / <a href="#">Password ?</a>
+                        </div>
+
+                        <div id="create-account-section">
+                            <a href="#">Create your account</a> 
+                            <!-- <i class="fas fa-long-arrow-alt-right"></i> -->
+                        </div>
+                    </div>
+                   
                 </div>
             
         </div>
